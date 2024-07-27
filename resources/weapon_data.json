@@ -1,0 +1,2848 @@
+{
+  "dagger": {
+    "type": "Daggers",
+    "name": "Dagger",
+    "minidesc": "A standard dagger with a straight blade.",
+    "description": "A standard dagger with a straight blade.  Though modest in reach and capacity fo harm, this weapon is light enough to jab in rapid succession and delivers devastating critical hits. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 74
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 130
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 35
+      },
+      {
+        "name": "Mag",
+        "value": 20
+      },
+      {
+        "name": "Fire",
+        "value": 20
+      },
+      {
+        "name": "Ligt",
+        "value": 20
+      },
+      {
+        "name": "Holy",
+        "value": 20
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 5
+      },
+      {
+        "name": "Dex",
+        "value": 9
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "parrying_dagger": {
+    "type": "Daggers",
+    "name": "Parrying Dagger",
+    "minidesc": "A knife with curved handguards.",
+    "description": "A knife with curved handguards. Designed to parry, turning foes attacks against them.  For master of combat who anticipate every enemy strike and counter accordingly, this weapon is all they need. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 75
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 35
+      },
+      {
+        "name": "Mag",
+        "value": 20
+      },
+      {
+        "name": "Fire",
+        "value": 20
+      },
+      {
+        "name": "Ligt",
+        "value": 20
+      },
+      {
+        "name": "Holy",
+        "value": 20
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 5
+      },
+      {
+        "name": "Dex",
+        "value": 14
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "misericorde": {
+    "type": "Daggers",
+    "name": "Misericorde",
+    "description": "Dagger favored by military physicians in white.",
+    "thumbnail": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/misericorde_dagger_weapon_elden_ring_wiki_guide_200px.png",
+    "attack": [
+      {"name":"Physical", "value": 74},
+      {"name":"Magic", "value": 0},
+      {"name":"Fire", "value": 0},
+      {"name":"Light", "value": 0},
+      {"name":"Holy", "value": 0},
+      {"name":"Critical", "value": 130}
+    ],
+    "guard": [
+      {"name":"Physical", "value": 74},
+      {"name":"Magic", "value": 0},
+      {"name":"Fire", "value": 0},
+      {"name":"Light", "value": 0},
+      {"name":"Holy", "value": 0},
+      {"name":"Critical", "value": 130}
+    ],
+    "scaling": [
+      {"name":"Strength", "value": "D"},
+      {"name":"Dexterity", "value": "C"}
+    ],
+    "requirements": [
+      {"name":"Strength", "value": 5},
+      {"name":"Dexterity", "value": 9}
+    ],
+    "skill": "Quickstep"
+  },
+  "great_knife": {
+    "type": "Daggers",
+    "name": "Great Knife",
+    "minidesc": "Large knife with a broad, curved blade.",
+    "description": "Large knife with a broad, curved blade. This weapon is designed to Spinning Slash and rend, inflicting blood loss upon the recipient. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 75
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 35
+      },
+      {
+        "name": "Mag",
+        "value": 20
+      },
+      {
+        "name": "Fire",
+        "value": 20
+      },
+      {
+        "name": "Ligt",
+        "value": 20
+      },
+      {
+        "name": "Holy",
+        "value": 20
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 6
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "bloodstained_dagger": {
+    "type": "Daggers",
+    "name": "Bloodstained Dagger",
+    "minidesc": "Dagger with a bloodstained blade.",
+    "description": "Dagger with a bloodstained blade. Afflicts targets with blood loss. As blood darkened the dagger through repeated slashing and stabbing, its blade only grew sharper and harder.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 81
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 36
+      },
+      {
+        "name": "Mag",
+        "value": 21
+      },
+      {
+        "name": "Fire",
+        "value": 21
+      },
+      {
+        "name": "Ligt",
+        "value": 21
+      },
+      {
+        "name": "Holy",
+        "value": 21
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "C"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 9
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      }
+    ],
+    "weight": 2,
+    "skill": ""
+  },
+  "erdsteel_dagger": {
+    "type": "Daggers",
+    "name": "Erdsteel Dagger",
+    "minidesc": "An erdsteel dagger with a grass crest engraved upon its blade.",
+    "description": "An erdsteel dagger with a grass crest engraved upon its blade. Carried by the Erdtree royalty for self-defense in times of peace.  Though forged to a high standard, the weapon is difficult to wield.  Attack power also scales with faith. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 67
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 36
+      },
+      {
+        "name": "Mag",
+        "value": 21
+      },
+      {
+        "name": "Fire",
+        "value": 21
+      },
+      {
+        "name": "Ligt",
+        "value": 21
+      },
+      {
+        "name": "Holy",
+        "value": 21
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 7
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Fai",
+        "value": 14
+      }
+    ],
+    "weight": 2,
+    "skill": ""
+  },
+  "wakizashi": {
+    "type": "Daggers",
+    "name": "Wakizashi",
+    "minidesc": "Short sword with a tempering pattern on the blade.",
+    "description": "Short sword with a tempering pattern on the blade. A weapon unique to warriors of the Land of Reeds. Afflicts targets with blood loss. These swords are considered auxiliary weapons. Yet, one man is known to wield this weapon in his left hand while using a full-sized katana in his right. A demonic swordsman known only as Okina.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 94
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 42
+      },
+      {
+        "name": "Mag",
+        "value": 24
+      },
+      {
+        "name": "Fire",
+        "value": 24
+      },
+      {
+        "name": "Ligt",
+        "value": 24
+      },
+      {
+        "name": "Holy",
+        "value": 24
+      },
+      {
+        "name": "Boost",
+        "value": 18
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 9
+      },
+      {
+        "name": "Dex",
+        "value": 13
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "celebrants_sickle": {
+    "type": "Daggers",
+    "name": "Celebrants Sickle",
+    "minidesc": "Sickle decorated with flowers and many-coloured fabrics.",
+    "description": "Sickle decorated with flowers and many-coloured fabrics. Ceremonial tool used by dancers during the festivities of Dominula. Its attacks can slip through an enemys guard. Crafted from human bone. Grants trace amounts of runes on landing attacks.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 79
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 35
+      },
+      {
+        "name": "Mag",
+        "value": 20
+      },
+      {
+        "name": "Fire",
+        "value": 20
+      },
+      {
+        "name": "Ligt",
+        "value": 20
+      },
+      {
+        "name": "Holy",
+        "value": 20
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 6
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "ivory_sickle": {
+    "type": "Daggers",
+    "name": "Ivory Sickle",
+    "minidesc": "Sickle fashioned form ivory.",
+    "description": "Sickle fashioned form ivory.  Weapon carried by aged Albunaurics. These weapons re evidence of their dedication to the Haligtree, despite never having entered its presence. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 60
+      },
+      {
+        "name": "Mag",
+        "value": 60
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 26
+      },
+      {
+        "name": "Mag",
+        "value": 42
+      },
+      {
+        "name": "Fire",
+        "value": 15
+      },
+      {
+        "name": "Ligt",
+        "value": 15
+      },
+      {
+        "name": "Holy",
+        "value": 15
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 6
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      },
+      {
+        "name": "Int",
+        "value": 13
+      }
+    ],
+    "weight": 2,
+    "skill": ""
+  },
+  "crystal_knife": {
+    "type": "Daggers",
+    "name": "Crystal Knife",
+    "minidesc": "A knife made by sharpening hard crystal.",
+    "description": "A knife made by sharpening hard crystal. Signature weapon of glintstone miners.  Used as a tool to extract glintstone from broken rock, and as such a faint magic enwreathes the blade.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 82
+      },
+      {
+        "name": "Mag",
+        "value": 53
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 32
+      },
+      {
+        "name": "Mag",
+        "value": 31
+      },
+      {
+        "name": "Fire",
+        "value": 18
+      },
+      {
+        "name": "Ligt",
+        "value": 18
+      },
+      {
+        "name": "Holy",
+        "value": 18
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Int",
+        "value": 9
+      }
+    ],
+    "weight": 2,
+    "skill": ""
+  },
+  "scorpions_stinger": {
+    "type": "Daggers",
+    "name": "Scorpions Stinger",
+    "minidesc": "Dagger fashioned from a great scorpions tail, glistening with scarlet rot.",
+    "description": "Dagger fashioned from a great scorpions tail, glistening with scarlet rot. A ceremonial tool used by heretics, crafted from the relic of a sealed outer god.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 79
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 38
+      },
+      {
+        "name": "Mag",
+        "value": 22
+      },
+      {
+        "name": "Fire",
+        "value": 22
+      },
+      {
+        "name": "Ligt",
+        "value": 22
+      },
+      {
+        "name": "Holy",
+        "value": 22
+      },
+      {
+        "name": "Boost",
+        "value": 16
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 6
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      }
+    ],
+    "weight": 2.5,
+    "skill": ""
+  },
+  "cinquedea": {
+    "type": "Daggers",
+    "name": "Cinquedea",
+    "minidesc": "Short sword given to high ranking clergymen of Farum Azula.",
+    "description": "Short sword given to high ranking clergymen of Farum Azula. Raises potency of bestial incantations. The design celebrates a beasts five fingers, symbolic of the intelligence once granted upon their kind.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 98
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 43
+      },
+      {
+        "name": "Mag",
+        "value": 25
+      },
+      {
+        "name": "Fire",
+        "value": 25
+      },
+      {
+        "name": "Ligt",
+        "value": 25
+      },
+      {
+        "name": "Holy",
+        "value": 25
+      },
+      {
+        "name": "Boost",
+        "value": 18
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "glintstone_kris": {
+    "type": "Daggers",
+    "name": "Glintstone Kris",
+    "minidesc": "Ritual blade once presented to Leyndell by the Academy of Raya Lucaria.",
+    "description": "Ritual blade once presented to Leyndell by the Academy of Raya Lucaria to celebrate their newfound peace. Though the weapon is embedded with precious glintstones and features Erdtree ornamentation, the undulating blade is symbolic of an ancient ritual.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 57
+      },
+      {
+        "name": "Mag",
+        "value": 68
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 23
+      },
+      {
+        "name": "Mag",
+        "value": 45
+      },
+      {
+        "name": "Fire",
+        "value": 14
+      },
+      {
+        "name": "Ligt",
+        "value": 14
+      },
+      {
+        "name": "Holy",
+        "value": 14
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 5
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Int",
+        "value": 16
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "reduvia": {
+    "type": "Daggers",
+    "name": "Reduvia",
+    "minidesc": "Jagged dagger with a distinctive curled blade.",
+    "description": "Jagged dagger with a distinctive curled blade. Carried by the noble servants of the Lord of Blood. This dagger rips the flesh as it enters, inflicting blood loss with sickening efficacy. A proud testament to the success of its vicious design, this weapon is perpetually coated in blood.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 79
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 38
+      },
+      {
+        "name": "Mag",
+        "value": 22
+      },
+      {
+        "name": "Fire",
+        "value": 22
+      },
+      {
+        "name": "Ligt",
+        "value": 22
+      },
+      {
+        "name": "Holy",
+        "value": 22
+      },
+      {
+        "name": "Boost",
+        "value": 16
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Arc",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 5
+      },
+      {
+        "name": "Dex",
+        "value": 13
+      },
+      {
+        "name": "Arc",
+        "value": 13
+      }
+    ],
+    "weight": 2.5,
+    "skill": ""
+  },
+  "blade_of_calling": {
+    "type": "Daggers",
+    "name": "Blade Of Calling",
+    "minidesc": "Dagger given to one who set out on a journey to fulfill her duty long ago.",
+    "description": "Dagger given to one who set out on a journey to fulfill her duty long ago. The power of its former owner, the kindling maiden, is still apparent. The one who walks alongside flame, Shall one day meet the road of Destined Death.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 71
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 43
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 31
+      },
+      {
+        "name": "Mag",
+        "value": 18
+      },
+      {
+        "name": "Fire",
+        "value": 18
+      },
+      {
+        "name": "Ligt",
+        "value": 18
+      },
+      {
+        "name": "Holy",
+        "value": 30
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 6
+      },
+      {
+        "name": "Dex",
+        "value": 13
+      },
+      {
+        "name": "Fai",
+        "value": 15
+      }
+    ],
+    "weight": 1.5,
+    "skill": ""
+  },
+  "black_knife": {
+    "type": "Daggers",
+    "name": "Black Knife",
+    "minidesc": "Dagger once belonging to one of the assassins who murdered Godwyn the Golden.",
+    "description": "Dagger once belonging to one of the assassins who murdered Godwyn the Golden on the Night of the Black Knives.  A ritual performed on the oddly misshapen blade imbued it with the power of the stolen Rune of Death. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 66
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 65
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 26
+      },
+      {
+        "name": "Mag",
+        "value": 15
+      },
+      {
+        "name": "Fire",
+        "value": 15
+      },
+      {
+        "name": "Ligt",
+        "value": 15
+      },
+      {
+        "name": "Holy",
+        "value": 42
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Fai",
+        "value": 18
+      }
+    ],
+    "weight": 2,
+    "skill": ""
+  },
+  "fire_knights_shortsword": "",
+  "main-gauche": "",
+
+  "short_sword": {
+    "type": "Straight Swords",
+    "name": "Short Sword",
+    "minidesc": "A short straight sword with a short blade.",
+    "description": "A short straight sword with a short blade.  In addition to its reliable standard damage, this weapon also boasts powerful piercing attacks.  Lightweight amongst straight swords, this weapon is easy to wield, requiring only humble attributes. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 102
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 42
+      },
+      {
+        "name": "Mag",
+        "value": 28
+      },
+      {
+        "name": "Fire",
+        "value": 28
+      },
+      {
+        "name": "Ligt",
+        "value": 28
+      },
+      {
+        "name": "Holy",
+        "value": 28
+      },
+      {
+        "name": "Boost",
+        "value": 28
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "longsword": {
+    "type": "Straight Swords",
+    "name": "Longsword",
+    "minidesc": "A straight sword with a double-edged blade.",
+    "description": "A straight sword with a double-edged blade. In addition to its easily-inflicted standard damage, this well- balanced weapon can also perform powerful piercing attacks.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 110
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 45
+      },
+      {
+        "name": "Mag",
+        "value": 30
+      },
+      {
+        "name": "Fire",
+        "value": 30
+      },
+      {
+        "name": "Ligt",
+        "value": 30
+      },
+      {
+        "name": "Holy",
+        "value": 30
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "broadsword": {
+    "type": "Straight Swords",
+    "name": "Broadsword",
+    "minidesc": "A straight sword with a wide blade, suited to slashing attacks.",
+    "description": "A straight sword with a wide blade, suited to slashing attacks. Horizontal swings boast wide attack range, making it easier to connect with foes. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 177
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 47
+      },
+      {
+        "name": "Mag",
+        "value": 31
+      },
+      {
+        "name": "Fire",
+        "value": 31
+      },
+      {
+        "name": "Ligt",
+        "value": 31
+      },
+      {
+        "name": "Holy",
+        "value": 31
+      },
+      {
+        "name": "Boost",
+        "value": 31
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 4,
+    "skill": ""
+  },
+  "weathered_straight_sword": {
+    "type": "Straight Swords",
+    "name": "Weathered Straight Sword",
+    "minidesc": "Straight sword with a rather short but wide blade.",
+    "description": "Straight sword with a rather short but wide blade. Simple to wield, it was known as the sword of the people. Though the Erdtree styling is still visible, time has not been kind to this sword, now merely a shadow of its former self.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 103
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 43
+      },
+      {
+        "name": "Mag",
+        "value": 29
+      },
+      {
+        "name": "Fire",
+        "value": 29
+      },
+      {
+        "name": "Ligt",
+        "value": 29
+      },
+      {
+        "name": "Holy",
+        "value": 29
+      },
+      {
+        "name": "Boost",
+        "value": 27
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 7
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "lordsworns_straight_sword": {
+    "type": "Straight Swords",
+    "name": "Lordsworns Straight Sword",
+    "minidesc": "Well-crafted straight sword with an illustrious design, wielded by regulars of a lords army.",
+    "description": "Well-crafted straight sword with an illustrious design, wielded by regulars of a lords army. Though blackened and damaged by years of use, it appears to have otherwise been kept in a servicable condition, despite the soldiers having long since lost their minds.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 115
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 45
+      },
+      {
+        "name": "Mag",
+        "value": 30
+      },
+      {
+        "name": "Fire",
+        "value": 30
+      },
+      {
+        "name": "Ligt",
+        "value": 30
+      },
+      {
+        "name": "Holy",
+        "value": 30
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "nobles_slender_sword": {
+    "type": "Straight Swords",
+    "name": "Nobles Slender Sword",
+    "minidesc": "Narrow blade carried by wandering nobles.",
+    "description": "Narrow blade carried by wandering nobles. Made to be easy to wield. Daubed with gold from tip to tail, it should fetch a good sum.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 101
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 43
+      },
+      {
+        "name": "Mag",
+        "value": 29
+      },
+      {
+        "name": "Fire",
+        "value": 29
+      },
+      {
+        "name": "Ligt",
+        "value": 29
+      },
+      {
+        "name": "Holy",
+        "value": 29
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "cane_sword": {
+    "type": "Straight Swords",
+    "name": "Cane Sword",
+    "minidesc": "Beloved sword of an aged knight whose last quest was long behind him.",
+    "description": "Beloved sword of an aged knight whose last quest was long behind him, repurposed into a walking stick. The tip is rather worn.  Though bent of back and without the brawn required even to raise the sword aloft, still he wished to meet his end with weapon in hand.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 96
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 41
+      },
+      {
+        "name": "Mag",
+        "value": 27
+      },
+      {
+        "name": "Fire",
+        "value": 27
+      },
+      {
+        "name": "Ligt",
+        "value": 27
+      },
+      {
+        "name": "Holy",
+        "value": 27
+      },
+      {
+        "name": "Boost",
+        "value": 27
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      }
+    ],
+    "weight": 2.5,
+    "skill": ""
+  },
+  "warhawks_talon": {
+    "type": "Straight Swords",
+    "name": "Warhawks Talon",
+    "minidesc": "Talon-swords are affixed to the legs of the Stormveils warhawks.",
+    "description": "Talon-swords are affixed to the legs of the Stormveils warhawks, but this one has been repurposed for human use. The blade is thin and lightweight so as not to obstruct the hawks mobility.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 101
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 42
+      },
+      {
+        "name": "Mag",
+        "value": 28
+      },
+      {
+        "name": "Fire",
+        "value": 28
+      },
+      {
+        "name": "Ligt",
+        "value": 28
+      },
+      {
+        "name": "Holy",
+        "value": 28
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 16
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "lazuli_glintstone_sword": {
+    "type": "Straight Swords",
+    "name": "Lazuli Glintstone Sword",
+    "minidesc": "A sword with a glintstone in its handguards.",
+    "description": "A sword with a glintstone in its handguards. Wielded by scholars of the Lazuli Conspectus who seek to master Carian sorcery. Deals magic damage. Apparently once used as a staff of sorcery, this sword is made of wood.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 79
+      },
+      {
+        "name": "Mag",
+        "value": 94
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 30
+      },
+      {
+        "name": "Mag",
+        "value": 55
+      },
+      {
+        "name": "Fire",
+        "value": 25
+      },
+      {
+        "name": "Ligt",
+        "value": 25
+      },
+      {
+        "name": "Holy",
+        "value": 25
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "carian_knights_sword": {
+    "type": "Straight Swords",
+    "name": "Carian Knights Sword",
+    "minidesc": "Straight sword embedded with a blue glintstone.",
+    "description": "Straight sword embedded with a blue glintstone.  Weapon of knights sworn to Carian royalty. These knights swords could serve as catalysts, letting them wield sorcerous battle skills. Despite numbering fewer than twenty, this power made them a match for even the champions of gold in battle.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 88
+      },
+      {
+        "name": "Mag",
+        "value": 88
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 36
+      },
+      {
+        "name": "Mag",
+        "value": 52
+      },
+      {
+        "name": "Fire",
+        "value": 26
+      },
+      {
+        "name": "Ligt",
+        "value": 26
+      },
+      {
+        "name": "Holy",
+        "value": 26
+      },
+      {
+        "name": "Boost",
+        "value": 31
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      },
+      {
+        "name": "Int",
+        "value": 18
+      }
+    ],
+    "weight": 4,
+    "skill": ""
+  },
+  "crystal_sword": {
+    "type": "Straight Swords",
+    "name": "Crystal Sword",
+    "minidesc": "Sword fashioned from pure crystal; a deed impossible for a human.",
+    "description": "Sword fashioned from pure crystal; a deed impossible for a human. Enwreathed with powerful magic, its attack scales with intelligence. The inscrutable Crystalians have but one clear purpose; to safeguard their crystals unto the end. One theory posits that they yearn for the return of their creator who will carve for them new brethren. ",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 106
+      },
+      {
+        "name": "Mag",
+        "value": 68
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 44
+      },
+      {
+        "name": "Mag",
+        "value": 44
+      },
+      {
+        "name": "Fire",
+        "value": 30
+      },
+      {
+        "name": "Ligt",
+        "value": 30
+      },
+      {
+        "name": "Holy",
+        "value": 30
+      },
+      {
+        "name": "Boost",
+        "value": 33
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 13
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      },
+      {
+        "name": "Int",
+        "value": 15
+      }
+    ],
+    "weight": 4.5,
+    "skill": ""
+  },
+  "rotten_crystal_sword": {
+    "type": "Straight Swords",
+    "name": "Rotten Crystal Sword",
+    "minidesc": "Sword fashioned from pure crystal; a deed impossible for a human.",
+    "description": "Sword fashioned from pure crystal; a deed impossible for a human. Enwreathed with powerful magic, its attack scales with intelligence.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 102
+      },
+      {
+        "name": "Mag",
+        "value": 66
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 48
+      },
+      {
+        "name": "Mag",
+        "value": 38
+      },
+      {
+        "name": "Fire",
+        "value": 31
+      },
+      {
+        "name": "Ligt",
+        "value": 31
+      },
+      {
+        "name": "Holy",
+        "value": 31
+      },
+      {
+        "name": "Boost",
+        "value": 33
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 13
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      },
+      {
+        "name": "Int",
+        "value": 15
+      }
+    ],
+    "weight": 4.5,
+    "skill": ""
+  },
+  "miquellan_knights_sword": {
+    "type": "Straight Swords",
+    "name": "Miquellan Knights Sword",
+    "minidesc": "Sword forged by servants of Miquella of the Haligtree.",
+    "description": "Sword forged by servants of Miquella of the Haligtree, with a design modeled after those carried by Carian knights. Instead of glintstone however, amber from the Haligtree is embedded in the blade. A sumptuous piece, yet it has never been offered to any knight \u2014 an ill-starred sword with no master. Skill: Sacred Blade",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 105
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 68
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 40
+      },
+      {
+        "name": "Mag",
+        "value": 28
+      },
+      {
+        "name": "Fire",
+        "value": 28
+      },
+      {
+        "name": "Ligt",
+        "value": 28
+      },
+      {
+        "name": "Holy",
+        "value": 40
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 11
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      },
+      {
+        "name": "Fai",
+        "value": 16
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "ornamental_straight_sword": {
+    "type": "Straight Swords",
+    "name": "Ornamental Straight Sword",
+    "minidesc": "Slender straight sword patterned after an antique ornament.",
+    "description": "Slender straight sword patterned after an antique ornament. Superior swordsmen prefer to wield one in each hand. After falling from grace, the dregs of the golden lineage sought power and purpose in the past.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 101
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 42
+      },
+      {
+        "name": "Mag",
+        "value": 28
+      },
+      {
+        "name": "Fire",
+        "value": 28
+      },
+      {
+        "name": "Ligt",
+        "value": 28
+      },
+      {
+        "name": "Holy",
+        "value": 28
+      },
+      {
+        "name": "Boost",
+        "value": 28
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 14
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "golden_ephitaph": {
+    "type": "Straight Swords",
+    "name": "Golden Epitaph",
+    "minidesc": "A sword made to commemorate the death of Godwyn the Golden, first of the demigods to die.",
+    "description": "A sword made to commemorate the death of Godwyn the Golden, first of the demigods to die. Infused with the humble prayer of a young boy; \"O brother, lord brother, please die a true death.\"",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 85
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 85
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 25
+      },
+      {
+        "name": "Mag",
+        "value": 15
+      },
+      {
+        "name": "Fire",
+        "value": 15
+      },
+      {
+        "name": "Ligt",
+        "value": 15
+      },
+      {
+        "name": "Holy",
+        "value": 40
+      },
+      {
+        "name": "Boost",
+        "value": 30
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 12
+      },
+      {
+        "name": "Dex",
+        "value": 10
+      },
+      {
+        "name": "Fai",
+        "value": 14
+      }
+    ],
+    "weight": 3.5,
+    "skill": ""
+  },
+  "sword_of_st_trina": {
+    "type": "Straight Swords",
+    "name": "Sword Of St Trina",
+    "minidesc": "Silver sword carried by clerics of St. Trina.",
+    "description": "Silver sword carried by clerics of St. Trina. Inflicts sleep ailment upon foes. St. Trina is an enigmatic figure. Some say she is a comely young girl, others are sure he is a boy. The only certainty is that their appearance was as sudden as their disappearance.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 107
+      },
+      {
+        "name": "Mag",
+        "value": 32
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 39
+      },
+      {
+        "name": "Mag",
+        "value": 33
+      },
+      {
+        "name": "Fire",
+        "value": 27
+      },
+      {
+        "name": "Ligt",
+        "value": 27
+      },
+      {
+        "name": "Holy",
+        "value": 27
+      },
+      {
+        "name": "Boost",
+        "value": 28
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Int",
+        "value": 14
+      }
+    ],
+    "weight": 3,
+    "skill": ""
+  },
+  "regalia_of_eochaid": {
+    "type": "Straight Swords",
+    "name": "Regalia Of Eochaid",
+    "minidesc": "Treasured sword of Eochaid, a lesser, long-vanished domain.",
+    "description": "Treasured sword of Eochaid, a lesser, long-vanished domain. The copper coloration is not to be confused for rust, but is a conduit for its wielder to move it by their will alone.  Swords of Eochaid dance through the skies",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 89
+      },
+      {
+        "name": "Mag",
+        "value": 57
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 48
+      },
+      {
+        "name": "Mag",
+        "value": 40
+      },
+      {
+        "name": "Fire",
+        "value": 31
+      },
+      {
+        "name": "Ligt",
+        "value": 31
+      },
+      {
+        "name": "Holy",
+        "value": 31
+      },
+      {
+        "name": "Boost",
+        "value": 33
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 12
+      }
+    ],
+    "weight": 5.5,
+    "skill": ""
+  },
+  "coded_sword": {
+    "type": "Straight Swords",
+    "name": "Coded Sword",
+    "minidesc": "Hidden sword once granted to the Tarnished of the Roundtable by the Two Fingers.",
+    "description": "Hidden sword once granted to the Tarnished of the Roundtable by the Two Fingers. A formless cipher comprises its blade, which deals holy damage no shield can repel. Champions would gather at the Roundtable Hold in days long past, when the Two Fingers were masters of oration, their flesh yet full of vigor.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 0
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 85
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 13
+      },
+      {
+        "name": "Mag",
+        "value": 22
+      },
+      {
+        "name": "Fire",
+        "value": 22
+      },
+      {
+        "name": "Ligt",
+        "value": 22
+      },
+      {
+        "name": "Holy",
+        "value": 58
+      },
+      {
+        "name": "Boost",
+        "value": 27
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Fai",
+        "value": "B"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Fai",
+        "value": 20
+      }
+    ],
+    "weight": 2.5,
+    "skill": ""
+  },
+  "sword_of_night_and_flame": {
+    "type": "Straight Swords",
+    "name": "Sword Of Night And Flame",
+    "minidesc": "Storied sword and treasure of Caria Manor.",
+    "description": "Storied sword and treasure of Caria Manor. One of the legendary armaments. Astrologers, who preceded the sroveres, established themselves in mountaintops that nearly touched the sky, and considered the Fire Giants their neighbors.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 87
+      },
+      {
+        "name": "Mag",
+        "value": 56
+      },
+      {
+        "name": "Fire",
+        "value": 56
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 36
+      },
+      {
+        "name": "Mag",
+        "value": 42
+      },
+      {
+        "name": "Fire",
+        "value": 42
+      },
+      {
+        "name": "Ligt",
+        "value": 26
+      },
+      {
+        "name": "Holy",
+        "value": 26
+      },
+      {
+        "name": "Boost",
+        "value": 31
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      },
+      {
+        "name": "Int",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 12
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Int",
+        "value": 24
+      },
+      {
+        "name": "Fai",
+        "value": 24
+      }
+    ],
+    "weight": 4,
+    "skill": ""
+  },
+  "velvet_sword_of_st_trina": "",
+  "stone_sheathed_sword": "",
+  "sword_of_light": "",
+  "sword_of_darkness": ""
+}

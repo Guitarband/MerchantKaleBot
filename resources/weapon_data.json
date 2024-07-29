@@ -76,12 +76,12 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "parrying_dagger": {
     "type": "Daggers",
     "name": "Parrying Dagger",
-    "description": "A knife with curved handguards. Designed to parry, turning foes attacks against them.  For master of combat who anticipate every enemy strike and counter accordingly, this weapon is all they need. ",
+    "description": "A knife with curved handguards. Designed to parry, turning foes' attacks against them.  For master of combat who anticipate every enemy strike and counter accordingly, this weapon is all they need. ",
     "attack": [
       {
         "name": "Phy",
@@ -155,37 +155,85 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Parry"
   },
   "misericorde": {
     "type": "Daggers",
-    "name": "aaa",
-    "description": "Dagger favored by military physicians in white.",
-    "thumbnail": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/misericorde_dagger_weapon_elden_ring_wiki_guide_200px.png",
+    "name": "Miséricorde",
+    "description": "Dagger favored by military physicians in white.  The pointed blade is hard and sharp, making critical hits especially potent.  Medicine is mercy. and mercy upon the battlefield is ruthless. Beware the killers clothes as men of compassion",
     "attack": [
-      {"name":"Physical", "value": 74},
-      {"name":"Magic", "value": 0},
-      {"name":"Fire", "value": 0},
-      {"name":"Light", "value": 0},
-      {"name":"Holy", "value": 0},
-      {"name":"Critical", "value": 130}
+      {
+        "name": "Phy",
+        "value": 92
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 140
+      }
     ],
     "guard": [
-      {"name":"Physical", "value": 74},
-      {"name":"Magic", "value": 0},
-      {"name":"Fire", "value": 0},
-      {"name":"Light", "value": 0},
-      {"name":"Holy", "value": 0},
-      {"name":"Critical", "value": 130}
+      {
+        "name": "Phy",
+        "value": 36
+      },
+      {
+        "name": "Mag",
+        "value": 21
+      },
+      {
+        "name": "Fire",
+        "value": 21
+      },
+      {
+        "name": "Ligt",
+        "value": 21
+      },
+      {
+        "name": "Holy",
+        "value": 21
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
     ],
     "scaling": [
-      {"name":"Strength", "value": "D"},
-      {"name":"Dexterity", "value": "C"}
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "C"
+      }
     ],
     "requirements": [
-      {"name":"Strength", "value": 5},
-      {"name":"Dexterity", "value": 9}
+      {
+        "name": "Str",
+        "value": 5
+      },
+      {
+        "name": "Dex",
+        "value": 14
+      }
     ],
+    "weight": 2.0,
     "skill": "Quickstep"
   },
   "great_knife": {
@@ -265,7 +313,7 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "bloodstained_dagger": {
     "type": "Daggers",
@@ -344,7 +392,7 @@
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "erdsteel_dagger": {
     "type": "Daggers",
@@ -431,7 +479,7 @@
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "wakizashi": {
     "type": "Daggers",
@@ -510,7 +558,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "celebrants_sickle": {
     "type": "Daggers",
@@ -589,7 +637,7 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "ivory_sickle": {
     "type": "Daggers",
@@ -676,7 +724,7 @@
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "crystal_knife": {
     "type": "Daggers",
@@ -763,7 +811,7 @@
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "scorpions_stinger": {
     "type": "Daggers",
@@ -842,7 +890,7 @@
       }
     ],
     "weight": 2.5,
-    "skill": ""
+    "skill": "Repeating Thrust"
   },
   "cinquedea": {
     "type": "Daggers",
@@ -921,7 +969,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Quickstep"
   },
   "glintstone_kris": {
     "type": "Daggers",
@@ -1008,7 +1056,7 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Glintstone Dart"
   },
   "reduvia": {
     "type": "Daggers",
@@ -1095,7 +1143,7 @@
       }
     ],
     "weight": 2.5,
-    "skill": ""
+    "skill": "Reduvia Blood Blade"
   },
   "blade_of_calling": {
     "type": "Daggers",
@@ -1182,7 +1230,7 @@
       }
     ],
     "weight": 1.5,
-    "skill": ""
+    "skill": "Blade of Gold"
   },
   "black_knife": {
     "type": "Daggers",
@@ -1269,10 +1317,174 @@
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Blade of Death"
   },
-  "fire_knights_shortsword": "",
-  "maingauche": "",
+  "fire_knights_shortsword": {
+    "type": "Daggers",
+    "name": "Fire Knight's Shortsword(SOTE)",
+    "description": "Shortsword used by the Fire Knights. A slender blade that undulates like fire. Blessed with a flame incantation. Further flame imbuement will amplify the effect and greatly increase the armament's power.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 75
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 32
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 32
+      },
+      {
+        "name": "Mag",
+        "value": 18
+      },
+      {
+        "name": "Fire",
+        "value": 31
+      },
+      {
+        "name": "Ligt",
+        "value": 18
+      },
+      {
+        "name": "Holy",
+        "value": 18
+      },
+      {
+        "name": "Boost",
+        "value": 15
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Fai",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 8
+      },
+      {
+        "name": "Dex",
+        "value": 13
+      },
+      {
+        "name": "Fai",
+        "value": 12
+      }
+    ],
+    "weight": 2,
+    "skill": "Quickstep"
+  },
+  "maingauche": {
+    "type": "Daggers",
+    "name": "Main-gauche(SOTE)",
+    "description": "Dagger with a large hand guard.\n\nIntended to be used in the left hand, thereby complementing a piercing sword or identical blade held in the right to enable a distinctive style of fighting.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 79
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 3.8
+      },
+      {
+        "name": "Mag",
+        "value": 22
+      },
+      {
+        "name": "Fire",
+        "value": 22
+      },
+      {
+        "name": "Ligt",
+        "value": 22
+      },
+      {
+        "name": "Holy",
+        "value": 22
+      },
+      {
+        "name": "Boost",
+        "value": 16
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 7
+      },
+      {
+        "name": "Dex",
+        "value": 15
+      }
+    ],
+    "weight": 2,
+    "skill": "Parry"
+  },
 
   "short_sword": {
     "type": "Straight Swords",
@@ -1351,7 +1563,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Kick"
   },
   "longsword": {
     "type": "Straight Swords",
@@ -1430,7 +1642,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Square Off"
   },
   "broadsword": {
     "type": "Straight Swords",
@@ -1509,7 +1721,7 @@
       }
     ],
     "weight": 4,
-    "skill": ""
+    "skill": "Square Off"
   },
   "weathered_straight_sword": {
     "type": "Straight Swords",
@@ -1588,7 +1800,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Square Off"
   },
   "lordsworns_straight_sword": {
     "type": "Straight Swords",
@@ -1667,7 +1879,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Square Off"
   },
   "nobles_slender_sword": {
     "type": "Straight Swords",
@@ -1738,7 +1950,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Square Off"
   },
   "cane_sword": {
     "type": "Straight Swords",
@@ -1817,7 +2029,7 @@
       }
     ],
     "weight": 2.5,
-    "skill": ""
+    "skill": "Square Off"
   },
   "warhawks_talon": {
     "type": "Straight Swords",
@@ -1896,7 +2108,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Spinning Slash"
   },
   "lazuli_glintstone_sword": {
     "type": "Straight Swords",
@@ -1967,7 +2179,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Glintstone Pebble"
   },
   "carian_knights_sword": {
     "type": "Straight Swords",
@@ -2054,7 +2266,7 @@
       }
     ],
     "weight": 4,
-    "skill": ""
+    "skill": "Carian Grandeur"
   },
   "crystal_sword": {
     "type": "Straight Swords",
@@ -2141,7 +2353,7 @@
       }
     ],
     "weight": 4.5,
-    "skill": ""
+    "skill": "Spinning Slash"
   },
   "rotten_crystal_sword": {
     "type": "Straight Swords",
@@ -2228,7 +2440,7 @@
       }
     ],
     "weight": 4.5,
-    "skill": ""
+    "skill": "Spinning Slash"
   },
   "miquellan_knights_sword": {
     "type": "Straight Swords",
@@ -2315,7 +2527,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Sacred Blade"
   },
   "ornamental_straight_sword": {
     "type": "Straight Swords",
@@ -2394,7 +2606,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Golden Tempering"
   },
   "golden_ephitaph": {
     "type": "Straight Swords",
@@ -2481,7 +2693,7 @@
       }
     ],
     "weight": 3.5,
-    "skill": ""
+    "skill": "Last Rites"
   },
   "sword_of_st_trina": {
     "type": "Straight Swords",
@@ -2568,7 +2780,7 @@
       }
     ],
     "weight": 3,
-    "skill": ""
+    "skill": "Mists of Slumber"
   },
   "regalia_of_eochaid": {
     "type": "Straight Swords",
@@ -2639,7 +2851,7 @@
       }
     ],
     "weight": 5.5,
-    "skill": ""
+    "skill": "Eochaid's Dancing Blade"
   },
   "coded_sword": {
     "type": "Straight Swords",
@@ -2710,7 +2922,7 @@
       }
     ],
     "weight": 2.5,
-    "skill": ""
+    "skill": "Unblockable Blade"
   },
   "sword_of_night_and_flame": {
     "type": "Straight Swords",
@@ -2805,12 +3017,348 @@
       }
     ],
     "weight": 4,
-    "skill": ""
+    "skill": "Night-and-Flame Stance"
   },
-  "velvet_sword_of_st_trina": "",
-  "stone_sheathed_sword": "",
-  "sword_of_light": "",
-  "sword_of_darkness": "",
+  "velvet_sword_of_st_trina": {
+    "type": "Straight Swords",
+    "name": "Velvet Sword of St Trina(SOTE)",
+    "description": "Silver sword of St. Trina, now stained the color of velvet. Inflicts eternal sleep. When St. Trina was abandoned, the faint, light-purple mists coalesced into an intoxicating deep-purple cloud.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 95
+      },
+      {
+        "name": "Mag",
+        "value": 61
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 110
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 37
+      },
+      {
+        "name": "Mag",
+        "value": 37
+      },
+      {
+        "name": "Fire",
+        "value": 25
+      },
+      {
+        "name": "Ligt",
+        "value": 25
+      },
+      {
+        "name": "Holy",
+        "value": 25
+      },
+      {
+        "name": "Boost",
+        "value": 27
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "E"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      },
+      {
+        "name": "Int",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 10
+      },
+      {
+        "name": "Dex",
+        "value": 12
+      },
+      {
+        "name": "Int",
+        "value": 14
+      }
+    ],
+    "weight": 2.5,
+    "skill": "Mists of Eternal Sleep"
+  },
+  "stone_sheathed_sword": {
+    "type": "Straight Swords",
+    "name": "Stone-Sheathed Sword(SOTE)",
+    "description": "A sword that none can pull from its scabbard of cracked stone. Relic of a lost civilization from a time long past, said to have served a ritual purpose at altars of light and darkness.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 119
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 0
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 54
+      },
+      {
+        "name": "Mag",
+        "value": 33
+      },
+      {
+        "name": "Fire",
+        "value": 33
+      },
+      {
+        "name": "Ligt",
+        "value": 33
+      },
+      {
+        "name": "Holy",
+        "value": 33
+      },
+      {
+        "name": "Boost",
+        "value": 32
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "C"
+      },
+      {
+        "name": "Dex",
+        "value": "D"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 16
+      },
+      {
+        "name": "Dex",
+        "value": 8
+      }
+    ],
+    "weight": 5,
+    "skill": "Square Off"
+  },
+  "sword_of_light": {
+    "type": "Straight Swords",
+    "name": "Sword of Light(SOTE)",
+    "description": "Sword of light, pulled from its stone scabbard at an altar. From the quick of the root, unswerving rays of light intersect and reflect to give the silver blade form.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 93
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 93
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 26
+      },
+      {
+        "name": "Mag",
+        "value": 15
+      },
+      {
+        "name": "Fire",
+        "value": 15
+      },
+      {
+        "name": "Ligt",
+        "value": 15
+      },
+      {
+        "name": "Holy",
+        "value": 42
+      },
+      {
+        "name": "Boost",
+        "value": 31
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      },
+      {
+        "name": "Fai",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 14
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      },
+      {
+        "name": "Fai",
+        "value": 24
+      }
+    ],
+    "weight": 4,
+    "skill": "Light"
+  },
+  "sword_of_darkness": {
+    "type": "Straight Swords",
+    "name": "Sword of Darkness(SOTE)",
+    "description": "Sword of darkness, pulled from its stone scabbard at an altar. From the quick of the root, wandering coils of darkness coalesce and release, their eddies and vortices giving form to the dark blade.",
+    "attack": [
+      {
+        "name": "Phy",
+        "value": 93
+      },
+      {
+        "name": "Mag",
+        "value": 0
+      },
+      {
+        "name": "Fire",
+        "value": 0
+      },
+      {
+        "name": "Ligt",
+        "value": 0
+      },
+      {
+        "name": "Holy",
+        "value": 93
+      },
+      {
+        "name": "Crit",
+        "value": 100
+      }
+    ],
+    "guard": [
+      {
+        "name": "Phy",
+        "value": 26
+      },
+      {
+        "name": "Mag",
+        "value": 15
+      },
+      {
+        "name": "Fire",
+        "value": 15
+      },
+      {
+        "name": "Ligt",
+        "value": 15
+      },
+      {
+        "name": "Holy",
+        "value": 42
+      },
+      {
+        "name": "Boost",
+        "value": 31
+      }
+    ],
+    "scaling": [
+      {
+        "name": "Str",
+        "value": "D"
+      },
+      {
+        "name": "Dex",
+        "value": "E"
+      },
+      {
+        "name": "Fai",
+        "value": "E"
+      }
+    ],
+    "requirements": [
+      {
+        "name": "Str",
+        "value": 14
+      },
+      {
+        "name": "Dex",
+        "value": 11
+      },
+      {
+        "name": "Fai",
+        "value": 24
+      }
+    ],
+    "weight": 4,
+    "skill": "Darkness"
+  },
 
   "bastard_sword": {
     "type": "Greatswords",
@@ -3518,7 +4066,7 @@
   "gargoyles_blackblade": {
     "type": "Greatswords",
     "name": "Gargoyle's Blackblade",
-    "description": "Broze greatsword wielded by Valiant Gargoyle mended with blackened corpse wax. Deals holy damage.  Such is the mark of those who serve Maliketh, the Black Blade.   ",
+    "description": "Bronze greatsword wielded by Valiant Gargoyle mended with blackened corpse wax. Deals holy damage.  Such is the mark of those who serve Maliketh, the Black Blade.   ",
     "attack": [
       {
         "name": "Phy",
@@ -3604,12 +4152,12 @@
   },
   "inseperable_sword": {
     "type": "Greatswords",
-    "name": "aaa",
-    "description": "Broze greatsword wielded by Valiant Gargoyle mended with blackened corpse wax. Deals holy damage.  Such is the mark of those who serve Maliketh, the Black Blade.   ",
+    "name": "Inseperable Sword",
+    "description": "Sword forged by compounding silver and gold. A sacred weapon to hunt Those Who Live in Death. Deals holy damage.",
     "attack": [
       {
         "name": "Phy",
-        "value": 102
+        "value": 98
       },
       {
         "name": "Mag",
@@ -3625,7 +4173,7 @@
       },
       {
         "name": "Holy",
-        "value": 122
+        "value": 98
       },
       {
         "name": "Crit",
@@ -3635,27 +4183,27 @@
     "guard": [
       {
         "name": "Phy",
-        "value": 44
+        "value": 59
       },
       {
         "name": "Mag",
-        "value": 33
+        "value": 34
       },
       {
         "name": "Fire",
-        "value": 33
+        "value": 34
       },
       {
         "name": "Ligt",
-        "value": 33
+        "value": 34
       },
       {
         "name": "Holy",
-        "value": 66
+        "value": 52
       },
       {
         "name": "Boost",
-        "value": 38
+        "value": 44
       }
     ],
     "scaling": [
@@ -3665,11 +4213,11 @@
       },
       {
         "name": "Dex",
-        "value": "E"
+        "value": "D"
       },
       {
         "name": "Fai",
-        "value": "D"
+        "value": "C"
       }
     ],
     "requirements": [
@@ -3679,15 +4227,15 @@
       },
       {
         "name": "Dex",
-        "value": 10
+        "value": 18
       },
       {
         "name": "Fai",
-        "value": 22
+        "value": 20
       }
     ],
-    "weight": 11.5,
-    "skill": ""
+    "weight": 10,
+    "skill": "Sacred Blade"
   },
   "sword_of_milos": {
     "type": "Greatswords",
@@ -6015,14 +6563,15 @@
     "weight": 2,
     "skill": ""
   },
+
   "great_epee": {
     "type": "Heavy Thrusting Swords",
-    "name": "aaa",
-    "description": "A piercing sword with a sharp, slender blade. In addition to this weapons thrusting attack prowess, it also boasts the ability to be used while guarding with a shield.  As one of the smaller piercing swords, quick successive thrust area easy to perform, but without a cutting edge, it cannot be used for slashing attacks. ",
+    "name": "Great Epee",
+    "description": "Large rapier featuring a thin, sharp blade. Commonly used in life or death duels. Like its smaller counterparts, it is made for thrusting attacks, and can be used while guarding with a shield. ",
     "attack": [
       {
         "name": "Phy",
-        "value": 96
+        "value": 124
       },
       {
         "name": "Mag",
@@ -6042,56 +6591,56 @@
       },
       {
         "name": "Crit",
-        "value": 130
+        "value": 100
       }
     ],
     "guard": [
       {
         "name": "Phy",
-        "value": 45
+        "value": 52
       },
       {
         "name": "Mag",
-        "value": 30
+        "value": 36
       },
       {
         "name": "Fire",
-        "value": 30
+        "value": 36
       },
       {
         "name": "Ligt",
-        "value": 30
+        "value": 36
       },
       {
         "name": "Holy",
-        "value": 30
+        "value": 36
       },
       {
         "name": "Boost",
-        "value": 20
+        "value": 31
       }
     ],
     "scaling": [
       {
         "name": "Str",
-        "value": "E"
+        "value": "D"
       },
       {
         "name": "Dex",
-        "value": "C"
+        "value": "D"
       }
     ],
     "requirements": [
       {
         "name": "Str",
-        "value": 7
+        "value": 15
       },
       {
         "name": "Dex",
-        "value": 12
+        "value": 16
       }
     ],
-    "weight": 2.5,
+    "weight": 6.5,
     "skill": ""
   },
   "godskin_sticher": {
@@ -6660,12 +7209,12 @@
   },
   "bandits_curved_sword": {
     "type": "Curved Swords",
-    "name": "aaa",
-    "description": "Curved sword with a severely hooked blade. Its attacks can slip through an enemys guard.  Made to hunt down humans, this weapon requires high dexterity to wield efficiently. ",
+    "name": "Bandit's Curved Sword",
+    "description": "Curved sword with a light, crescent-shaped blade. Used by the bandits who ran rampant in the wake of the Shattering. Most of the blade is now darkened and covered in rust, but with enough dexterity this weapon may still stand up to some use.",
     "attack": [
       {
         "name": "Phy",
-        "value": 96
+        "value": 118
       },
       {
         "name": "Mag",
@@ -6691,33 +7240,33 @@
     "guard": [
       {
         "name": "Phy",
-        "value": 37
+        "value": 48
       },
       {
         "name": "Mag",
-        "value": 27
+        "value": 36
       },
       {
         "name": "Fire",
-        "value": 27
+        "value": 36
       },
       {
         "name": "Ligt",
-        "value": 27
+        "value": 36
       },
       {
         "name": "Holy",
-        "value": 27
+        "value": 36
       },
       {
         "name": "Boost",
-        "value": 22
+        "value": 30
       }
     ],
     "scaling": [
       {
         "name": "Str",
-        "value": "E"
+        "value": "D"
       },
       {
         "name": "Dex",
@@ -6727,15 +7276,15 @@
     "requirements": [
       {
         "name": "Str",
-        "value": 9
+        "value": 11
       },
       {
         "name": "Dex",
-        "value": 19
+        "value": 13
       }
     ],
-    "weight": 2,
-    "skill": ""
+    "weight": 5,
+    "skill": "Spinning Slash"
   },
   "shotel": {
     "type": "Curved Swords",
@@ -10152,6 +10701,7 @@
   "icerind_hatchet": {
     "type": "Axes",
     "name": "Icerind Hatchet",
+    "description": "A hatchet with a frost-coated blade. One of several gifts given by Castle Sol in the distant north. Known as \"freezing fog,\" the blade is thought to be a dragon's scale. Inflicts a powerful frost effect.",
     "attack": [
       {
         "name": "Phy",
@@ -10309,7 +10859,7 @@
   "stormhawk_axe": {
     "type": "Axes",
     "name": "Stormhawk Axe",
-    "description": "Battle axe designed to resemble a hawk, wioth its wings comprising the blade. Signature weapon of warriors who strive to remain one with the storm, despite being so far from their place of birth. Their hearts are proud, and thereby easily undone.",
+    "description": "Battle axe designed to resemble a hawk, with its wings comprising the blade. Signature weapon of warriors who strive to remain one with the storm, despite being so far from their place of birth. Their hearts are proud, and thereby easily undone.",
     "attack": [
       {
         "name": "Phy",
@@ -12063,12 +12613,12 @@
   },
   "varres_bouquet": {
     "type": "Hammers",
-    "name": "aaa",
-    "description": "Curved sword with a severely hooked blade. Its attacks can slip through an enemys guard.  Made to hunt down humans, this weapon requires high dexterity to wield efficiently. ",
+    "name": "Varre's Bouquet",
+    "description": "A steel mace resembling a charming bouquet of roses. Each petal has a sharpened edge, leaving the roses perpetually colored with blood. This weapon reflects White Mask Varré's manner of speech rather well, enticing in its splendor, but full of deadly consequence.",
     "attack": [
       {
         "name": "Phy",
-        "value": 96
+        "value": 46
       },
       {
         "name": "Mag",
@@ -12094,27 +12644,27 @@
     "guard": [
       {
         "name": "Phy",
-        "value": 37
+        "value": 38
       },
       {
         "name": "Mag",
-        "value": 27
+        "value": 25
       },
       {
         "name": "Fire",
-        "value": 27
+        "value": 25
       },
       {
         "name": "Ligt",
-        "value": 27
+        "value": 25
       },
       {
         "name": "Holy",
-        "value": 27
+        "value": 25
       },
       {
         "name": "Boost",
-        "value": 22
+        "value": 25
       }
     ],
     "scaling": [
@@ -12125,20 +12675,28 @@
       {
         "name": "Dex",
         "value": "D"
+      },
+      {
+        "name": "Arc",
+        "value": "C"
       }
     ],
     "requirements": [
       {
         "name": "Str",
-        "value": 9
+        "value": 8
       },
       {
         "name": "Dex",
-        "value": 19
+        "value": 16
+      },
+      {
+        "name": "Arc",
+        "value": 24
       }
     ],
     "weight": 2,
-    "skill": ""
+    "skill": "Blood Tax"
   },
   "envoys_horn": {
     "type": "Hammers",

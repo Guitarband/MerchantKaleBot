@@ -26,21 +26,6 @@ for(const folder of commandFolders){
 
 const rest = new REST().setToken(process.env.discord_token);
 
-rest.put(Routes.applicationGuildCommands(process.env.clientId, process.env.guildId), { body: commands })
+rest.put(Routes.applicationCommands(process.env.clientId), { body: commands })
     .then(() => console.log('Successfully registered application commands.'))
     .catch(console.error);
-/*
-(async () => {
-    try{
-        console.log(`Started regresing ${commands.length} application (/) commands.`)
-        const data = await rest.put(
-            Routes.applicationGuildCommands(process.env.clientId, process.env.guildId),
-            { body: commands },
-        )
-        console.log(`Successfully reloaded ${data.length} application (/) commands.`)
-    } catch(error){
-        console.error(error)
-    }
-})
-
- */

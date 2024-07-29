@@ -50,6 +50,7 @@ module.exports = {
                 return;
             }
         }
+
         const { cooldowns } = interaction.client;
         if(!cooldowns.has(command.data.name)){
             cooldowns.set(command.data.name, new Collection())
@@ -63,23 +64,10 @@ module.exports = {
         if(timestamps.has(interaction.user.id)){
             const expirationTime = timestamps.get(interaction.user.id) + cooldownAmount;
             if(now < expirationTime){
-                const expiredTimestamp = Math.round(expirationTime / 1000)
-                return interaction.reply({content:`This command is on cooldown for ${expiredTimestamp}`, ephemeral: true})
+                return interaction.reply({content:`This command is on cooldown`, ephemeral: true})
             }
         }
         timestamps.set(interaction.user.id, now)
         setTimeout(() => timestamps.delete(interaction.user.id), cooldownAmount)
-
-        try {
-            await command.execute(interaction)
-        } catch (error) {
-            console.error(error)
-            if(interaction.replied || interaction.deferred){
-                await interaction.followUp({content: 'There was an error while executing this command!', ephemeral: true })
-            } else {
-                await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true})
-            }
-        }
-
     }
 }

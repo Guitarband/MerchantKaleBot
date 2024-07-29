@@ -2,7 +2,7 @@
   "name": "discordbot",
   "version": "1.0.0",
   "description": "test bot for discord",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
     "deploy": "node deploy-commands.js"
   },

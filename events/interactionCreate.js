@@ -4,18 +4,6 @@ const weapon_data = require('../resources/weapon_data.json')
 module.exports = {
     name: Events.InteractionCreate,
     async execute(interaction){
-        if(!interaction.isChatInputCommand()) {
-            if(!interaction.isStringSelectMenu()) return;
-
-            if(interaction.custom_id === 'selecto'){
-                const selectedValue = interaction.values[0]
-                await interaction.update({
-                    content: `Selected ${selectedValue}`,
-                    components: []
-                })
-            }
-        }
-
         const command = interaction.client.commands.get(interaction.commandName)
         if (!command) {
             if(interaction.isStringSelectMenu()){
@@ -51,8 +39,8 @@ module.exports = {
                     .setFooter({text:`${weapon_data[interaction.values[0]].type}`})
                     .setTimestamp()
                 await interaction.update({
+                    //components: [],
                     embeds: [weaponInfo],
-                    components: [],
                     content: '\u200B'
                 })
                 return

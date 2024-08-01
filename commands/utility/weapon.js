@@ -30,7 +30,7 @@ module.exports = {
                             {name: 'Hammers', value: 'hammer'},
                             {name: 'Flails', value: 'flail'},
                             {name: 'Great Hammers', value: 'greathammer'},
-                            {name: 'Colossal Weapons', value: 'colossal'},
+                            {name: 'Colossal Weapons', value: 'colossalweapon'},
                             {name: 'Spears/Lances', value: 'spearlance'},
                             {name: 'Halberds', value: 'halberd'},
                             {name: 'Reapers', value: 'reaper'},
@@ -69,7 +69,9 @@ module.exports = {
                     'glintstone_kris',
                     'reduvia',
                     'blade_of_calling',
-                    'black_knife'
+                    'black_knife',
+                    'fire_knights_shortsword',
+                    'maingauche'
                 ]
             }
             else if (weaponType === 'straightsword'){
@@ -92,7 +94,11 @@ module.exports = {
                     'sword_of_st_trina',
                     'regalia_of_eochaid',
                     'coded_sword',
-                    'sword_of_night_and_flame'
+                    'sword_of_night_and_flame',
+                    'velvet_sword_of_st_trina',
+                    'stone_sheathed_sword',
+                    'sword_of_light',
+                    'sword_of_darkness'
                 ]
             }
             else if (weaponType === 'greatsword'){
@@ -117,7 +123,10 @@ module.exports = {
                     'blasphemous_blade',
                     'golden_order_greatsword',
                     'dark_moon_greatsword',
-                    'sacred_relic_sword'
+                    'sacred_relic_sword',
+                    'lizard_greatsword',
+                    'greatsword_of_damnation',
+                    'greatsword_of_solitude'
                 ]
             }
             else if (weaponType === 'colossalsword'){
@@ -126,12 +135,18 @@ module.exports = {
                     'greatsword',
                     'watchdogs_greatsword',
                     'trolls_golden_sword',
+                    'troll_knights_sword',
                     'royal_greatsword',
                     'grafted_blade_greatsword',
                     'ruins_greatsword',
                     'starscourge_greatsword',
                     'godslayers_greatsword',
-                    'malikeths_black_blade'
+                    'malikeths_black_blade',
+                    'fire_knights_greatsword',
+                    'ancient_meteoric_ore_greatsword',
+                    'moonrithyls_knight_sword',
+                    'greatsword_of_radhan_lord',
+                    'greatsword_of_radhan_light'
                 ]
             }
             else if (weaponType === 'thrustingsword'){
@@ -143,11 +158,14 @@ module.exports = {
                     'rogiers_rapier',
                     'antspur_rapier',
                     'frozen_needle',
+                    'carian_sorcery_sword',
 
                     'great_epee',
                     'godskin_sticher',
                     'bloody_helice',
-                    'dragon_kings_cragblade'
+                    'dragon_kings_cragblade',
+                    'sword_lance',
+                    'queeligns_greatsword'
                 ]
             }
             else if (weaponType === 'curvedsword'){
@@ -167,7 +185,11 @@ module.exports = {
                     'magma_blade',
                     'nox_flowing_sword',
                     'wing_of_astel',
-                    'eclipse_shotel'
+                    'eclipse_shotel',
+                    'spirit_sword',
+                    'falx',
+                    'dancing_blade_of_ranah',
+                    'horned_warriors_sword'
                 ]
             }
             else if (weaponType === 'curvedgreatsword'){
@@ -181,6 +203,8 @@ module.exports = {
                     'zamor_curved_sword',
                     'magma_wyrms_scalesword',
                     'morgotts_cursed_sword',
+                    'horned_warriors_greatsword',
+                    'freyjas_greatsword'
                 ]
             }
             else if (weaponType === 'katana'){
@@ -193,6 +217,8 @@ module.exports = {
                     'rivers_of_blood',
                     'dragonscale_blade',
                     'hand_of_malenia',
+                    'starlined_sword',
+                    'sword_of_night'
                 ]
             }
             else if (weaponType === 'twinblade'){
@@ -203,6 +229,8 @@ module.exports = {
                     'gargoyles_twinblade',
                     'gargoyles_black_blades',
                     'eleonaras_poleblade',
+                    'black_steel_twinblade',
+                    'euphoria'
                 ]
             }
             else if (weaponType === 'axe'){
@@ -220,6 +248,10 @@ module.exports = {
                     'ripple_blade',
                     'stormhawk_axe',
                     'rosus_axe',
+                    'forkedtongue_hatchet',
+                    'smithscript_axe',
+                    'messmer_soldiers_axe',
+                    'death_knights_twin_axes'
                 ]
             }
             else if (weaponType === 'greataxe'){
@@ -235,6 +267,9 @@ module.exports = {
                     'gargoyles_black_axe',
                     'winged_greathorn',
                     'axe_of_godrick',
+                    'putrescence_cleaver',
+                    'death_knights_longhaft_axe',
+                    'bonny_butchering_knife'
                 ]
             }
             else if (weaponType === 'hammer'){
@@ -254,6 +289,7 @@ module.exports = {
                     'ringed_finger',
                     'scepter_of_the_allknowing',
                     'marikas_hammer',
+                    'flowerstone_gavel'
                 ]
             }
             else if (weaponType === 'flail'){
@@ -263,6 +299,7 @@ module.exports = {
                     'chainlink_flail',
                     'family_heads',
                     'bastards_stars',
+                    'serpent_flail'
                 ]
             }
             else if (weaponType === 'greathammer'){
@@ -281,9 +318,11 @@ module.exports = {
                     'cranial_vessel_candlestand',
                     'beastclaw_greathammer',
                     'devourers_scepter',
+                    'black_steel_greathammer',
+                    'smithscript_greathammer'
                 ]
             }
-            else if (weaponType === 'colossal'){
+            else if (weaponType === 'colossalweapon'){
                 weaponArray = [
                     'duelist_greataxe',
                     'rotten_greataxe',
@@ -300,6 +339,11 @@ module.exports = {
                     'ghizas_wheel',
                     'fallingstar_beast_jaw',
                     'axe_of_godfrey',
+                    'bloodfiends_arm',
+                    'anvil_hammer',
+                    'devonias_hammer',
+                    'shadow_sunflower_blossom',
+                    'gazing_finger'
                 ]
             }
             else if (weaponType === 'spearlance'){
@@ -320,6 +364,9 @@ module.exports = {
                     'cleanrot_spear',
                     'death_ritual_spear',
                     'bold_of_gransax',
+                    'smithscript_spear',
+                    'swift_spear',
+                    'bloodfiends_fork',
 
                     'lance',
                     'treespear',
@@ -470,7 +517,6 @@ module.exports = {
 
             for(const weapon of weaponArray){
                 let weaponInfo = weapon_data[weapon]
-                //console.log(weaponInfo)
                 selectMenu.addOptions([
                     new StringSelectMenuOptionBuilder()
                         .setLabel(`${weaponInfo.name}`)

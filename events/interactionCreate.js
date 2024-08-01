@@ -1,4 +1,4 @@
-const { Events, Collection, EmbedBuilder} = require('discord.js')
+const { Events, Collection, EmbedBuilder, AttachmentBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder} = require('discord.js')
 const weapon_data = require('../resources/weapon_data.json')
 
 module.exports = {
@@ -6,43 +6,85 @@ module.exports = {
     async execute(interaction){
         const command = interaction.client.commands.get(interaction.commandName)
         if (!command) {
-            if(interaction.isStringSelectMenu()){
-                const weaponInfo = new EmbedBuilder()
-                    .setColor(0x0099ff)
-                    .setTitle(weapon_data[interaction.values[0]].name)
-                    //.setURL(`https://eldenring.wiki.fextralife.com/${weapon_data[interaction.values[0]].name}/`)
-                    .setDescription(`*${weapon_data[interaction.values[0]].description}*`)
-                    //.setThumbnail(`${weapon_data[interaction.values[0]].thumbnail.trim()}`)
+            if(interaction.isStringSelectMenu() || interaction.isButton()){
+                let itemId = undefined
+                let command = undefined
+                let itemEmbed = undefined
+                let itemButton = undefined
 
-                weaponInfo.addFields({name:'> Attack', value: ' '})
-                for(let attribute of weapon_data[interaction.values[0]].attack){
-                    weaponInfo.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                if(interaction.customId === 'selecto'){
+                    itemId = interaction.values[0]
+                    command = 'info'
+                }
+                else{
+                    itemId = interaction.customId.split(':')[2]
+                    command = interaction.customId.split(':')[0]
                 }
 
-                weaponInfo.addFields({name:'> Guard', value: ' '})
-                for(let attribute of weapon_data[interaction.values[0]].guard){
-                    weaponInfo.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                const attachment = new AttachmentBuilder(
+                    `${weapon_data[itemId].image}`,
+                )
+                attachment.name = 'thumbnail.png'
+
+                if(command === 'stats'){
+                    itemEmbed = new EmbedBuilder()
+                        .setColor(0x0099ff)
+                        .setTitle(weapon_data[itemId].name)
+                        .setThumbnail(`attachment://${attachment.name}`)
+                        .setFooter({text:`${weapon_data[itemId].type}`})
+
+                    itemEmbed.addFields({name:'> Attack                                         ', value: ' '})
+                    for(let attribute of weapon_data[itemId].attack){
+                        itemEmbed.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                    }
+
+                    itemEmbed.addFields({name:'> Guard                                           ', value: ' '})
+                    for(let attribute of weapon_data[itemId].guard){
+                        itemEmbed.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                    }
+
+                    itemEmbed.addFields({name:'> Scaling                                          ', value: ' '})
+                    for(let attribute of weapon_data[itemId].scaling){
+                        itemEmbed.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                    }
+
+                    itemEmbed.addFields({name:'> Requires                                          ', value: ' '})
+                    for(let attribute of weapon_data[itemId].requirements){
+                        itemEmbed.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
+                    }
+
+                    itemButton = new ButtonBuilder()
+                        .setCustomId(`info:weapon:${itemId}`)
+                        .setLabel('Show Info')
+                        .setStyle(ButtonStyle.Primary)
+
+
+                }
+                else{
+                    itemEmbed = new EmbedBuilder()
+                        .setColor(0x0099ff)
+                        .setTitle(weapon_data[itemId].name)
+                        .setImage(`attachment://${attachment.name}`)
+                        .setDescription(`*${weapon_data[itemId].description}*`)
+                        .setFooter({text:`${weapon_data[itemId].type}`})
+
+                    itemButton = new ButtonBuilder()
+                        .setCustomId(`stats:weapon:${itemId}`)
+                        .setLabel('Show Stats')
+                        .setStyle(ButtonStyle.Primary)
+
                 }
 
-                weaponInfo.addFields({name:'> Scaling', value: ' '})
-                for(let attribute of weapon_data[interaction.values[0]].scaling){
-                    weaponInfo.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
-                }
+                const row = new ActionRowBuilder()
+                    .addComponents(itemButton)
 
-                weaponInfo.addFields({name:'> Requires', value: ' '})
-                for(let attribute of weapon_data[interaction.values[0]].requirements){
-                    weaponInfo.addFields({name:`*${attribute.name}*`, value:`${attribute.value}`, inline: true})
-                }
-
-
-                weaponInfo
-                    .setFooter({text:`${weapon_data[interaction.values[0]].type}`})
-                    .setTimestamp()
                 await interaction.update({
-                    //components: [],
-                    embeds: [weaponInfo],
-                    content: '\u200B'
+                    embeds: [itemEmbed],
+                    components: [row],
+                    content: '\u200B',
+                    files: [attachment]
                 })
+
                 return
             }
             else {
